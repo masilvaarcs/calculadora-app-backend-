@@ -1,0 +1,44 @@
+# Logs
+logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Compiled binary addons (node-pre-gyp)
+**/*/binding.gyp
+**/*/binding.gypi
+
+# Dependency directories
+node_modules/
+jspm_packages/
+
+# Debug logs can be useful, but are often unnecessary
+*.idea/
+.vscode/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+
+# IDE-specific files
+.idea/
+.vscode/
+*.sublime-*
+*.komodoproject
+*.komodotools
+*.kateproject
+
+# Misc
+*.DS_Store
+.env
+
+# OS generated files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
