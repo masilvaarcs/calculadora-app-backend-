@@ -1,9 +1,8 @@
 const express = require('express');
 const cors = require('cors');
 const app = express();
-
-// Configure CORS
-// Only allow requests from the same domain and a specific domain
+//Configure CORS
+//Only allow requests from the same domain and a specific domain
 const corsOptions = {
   origin: ['http://localhost:3000'],
 };
@@ -36,7 +35,7 @@ app.post('/calculate', (req, res) => {
 });
 
 // Iniciar o servidor
-const PORT = process.env.PORT || 5000;
+const PORT = process.env.PORT || 8000;
 app.listen(PORT, () => {
   console.log(`Server running on port ${PORT}`);
 });
